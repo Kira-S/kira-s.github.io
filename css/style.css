@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: #ffffff;
+}
+
+.main-nav {
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.main-nav-list {
+  list-style: none;
+}
+
+.main-nav-list a {
+  color: #000000;
+}
+
+.main-nav-list a:hover,
+.main-nav-list a:focus {
+  color: #81b3d2;
+}
+
+.main-nav-list a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-nav-current a {
+  color: #766357;
+}
+
+/*Главная страница*/
+
+.intro {
+  text-align: center;
+
+  background-color: rgba(129, 179, 210, 0.5);
+  background-image:
+  url("../img/intro-mask.svg"),
+  url("../img/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-position:
+  bottom center,
+  top center;
+}
+
+.general-info {
+  text-align: center;
+}
+
+.general-info h1 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.general-info p {
+  line-height: 26px;
+}
+
+.features-list {
+  text-align: center;
+  color: #333333;
+}
+
+.features-list ol,
+.features-list ul {
+  list-style: none;
+}
+
+.features-list h2,
+.features-list h3 {
+  font-size: 21px;
+  color: #000000;
+}
+
+.feature-separate {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.feature-separate h2 {
+  color: #ffffff;
+}
+
+.services-list {
+  background-color: #ffffff;
+}
+
+.services-list p {
+  color: #333333;
+}
+
+.feature-united {
+  background-color: #eeeeee;
+}
+
+.search-hotel {
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.search-hotel b {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.search-hotel > p {
+  font-weight: normal;
+  color: #333333;
+}
+
+.search-button {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #766357;
+  border: none;
+}
+
+.search-button:hover,
+.search-button:focus {
+  background-color: #604e43;
+}
+
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.search-form-item {
+  line-height: 26px;
+}
+
+.search-form-item input {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.search-form-item input:hover {
+  background-color: #ebebeb;
+}
+
+.search-form-item input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.search-form-calendar svg {
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.search-form-calendar svg:hover {
+  fill: #333333;
+}
+
+.amount-button {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.modal-search-button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+  border: none;
+}
+
+.modal-search-button:hover,
+.modal-search-button:focus {
+  background-color: #669ec0;
+}
+
+.modal-search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.map {
+  text-align: center;
+}
+
+/*Внутренняя страница*/
+
+.hotel-filters{
+  color: #ffffff;
+
+  background-color: #81b3d2;
+  background-image: url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -290px;
+}
+
+.hotel-filter fieldset {
+  border: none;
+}
+
+.hotel-filter legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hotel-filter ul {
+  list-style: none;
+}
+
+.price-range input {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.hotel-filter-button {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.hotel-filter-button:hover,
+.hotel-filter-button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.hotels-found ul {
+  list-style: none;
+}
+
+.hotels-found > p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.hotels-sort {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.hotels-sort-list a {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 2px dotted #81b3d2;
+}
+
+.hotels-sort-list a:hover,
+.hotels-sort-list a:focus {
+  color: #81b3d2;
+}
+
+.hotels-sort-list a:active {
+  color: #000000;
+  border-bottom: none;
+}
+
+.sort-active a {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.hotels-found-info a {
+  font-size: 21px;
+  font-weight: bold;
+  line-height:  26px;
+  color: #000000;
+}
+
+a.hotels-found-heading:hover,
+a.hotels-found-heading:focus {
+color: #81b3d2;
+}
+
+a.hotels-found-heading:active {
+color: rgba(0, 0, 0, 0.3);
+}
+
+.rating {
+  color: #666666;
+
+  background-color: #f2f2f2;
+}
+
+.hotels-found-buttons a {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.details-button {
+  background-color: #81b3d2;
+}
+
+.details-button:hover,
+.details-button:focus {
+  background-color: #669ec0;
+}
+
+.details-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.book-button {
+  background-color: #766357;
+}
+
+.book-button:hover,
+.book-button:focus {
+  background-color: #604e43;
+}
+
+.book-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #503e33;
+}
+
+
+/*Футер*/
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footer-copyright span {
+  line-height: 26px;
+  color: #000000;
+}
+
+.main-footer-logo svg {
+  fill: #231f20;
+}
+
+.main-footer-logo svg:hover,
+.main-footer-logo svg:focus {
+  fill: #81b3d2;
+}
+
+.main-footer-logo svg:active {
+  fill: #bdbbbc;
+}
