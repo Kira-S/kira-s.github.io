@@ -132,6 +132,7 @@ input[type="radio"].visually-hidden {
   background-size:
   100% 57px,
   cover;
+  background-clip: padding-box;
 }
 
 .general-info {
@@ -678,14 +679,15 @@ input[type="radio"].visually-hidden {
 }
 
 .fieldset-wrapper legend {
-  margin-bottom: 13px;
+  margin-bottom: 11px;
 }
 
 .price-range {
   position: relative;
 
-  height: 29px;
   margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
   font-size: 0;
 
@@ -710,7 +712,6 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   width: 80px;
   max-width: 27%;
-  padding-top: 3px;
   padding-left: 21%;
 
   font-size: 14px;
@@ -736,7 +737,7 @@ input[type="radio"].visually-hidden {
 .range-controls {
   position: relative;
 
-  margin-bottom: 35px;
+  margin-bottom: 33px;
 }
 
 .price-range-button {
