@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
@@ -21,7 +21,7 @@
         </nav>
       </header>
       <main class="container">
-        <section class="intro" style="background-color: rgba(129, 179, 210, 0.5);">
+        <section class="intro">
           <img class="intro-text" src="img/intro-welcome.svg" alt="Добро пожаловать в Седону" width="459" height="353">
         </section>
         <section class="general-info">
@@ -130,6 +130,7 @@
         </section>
         <section class="map">
           <h2 class="visually-hidden">Как сюда добраться</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498612.0576764532!2d-112.01583060164403!3d34.81513001532661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1536516528580" width="1200" height="594" style="border:0" allowfullscreen></iframe>
           <img src="img/map.jpg" alt="Карта дорог, ведущих к Седоне" width="1200" height="594">
         </section>
       </main>
@@ -165,5 +166,8 @@
         </p>
       </footer>
     </div>
+
+    <script src="js/search-form.min.js"></script>
+
   </body>
 </html>

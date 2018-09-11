@@ -5,7 +5,7 @@
     <title>Седона - каталог гостиниц</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
@@ -16,7 +16,7 @@
             <li class="main-nav-item"><a href="information.html">Информация</a></li>
             <li class="main-nav-item"><a href="media.html">Фото и видео</a></li>
             <li class="main-nav-item"><a href="map.html">Карта штата</a></li>
-            <li class="main-nav-item main-nav-current"><a href="#">Гостиницы</a></li>
+            <li class="main-nav-item main-nav-current"><a>Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -63,12 +63,16 @@
               <fieldset>
                 <legend>Стоимость в сутки (р):</legend>
                 <div class="price-range">
-                  <label>от
-                    <input class="price-filter price-filter-from" type="text" id="price-filter-from" name="price-filter-from" value="0">
-                  </label>
-                  <label>до
-                    <input class="price-filter price-filter-to" type="text" id="price-filter-to" name="price-filter-to" value="3000">
-                  </label>
+                  <div class="price-range-wrapper">
+                    <label class="price-range-from">от
+                      <input class="price-filter-input" type="text" id="price-filter-from" name="price-filter-from" value="0">
+                    </label>
+                  </div>
+                  <div class="price-range-wrapper">
+                    <label class="price-range-to">до
+                      <input class="price-filter-input" type="text" id="price-filter-to" name="price-filter-to" value="3000">
+                    </label>
+                  </div>
                 </div>
                   <div class="range-controls">
                   <button class="price-range-button button-from" type="button">
